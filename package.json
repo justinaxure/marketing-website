@@ -2,9 +2,9 @@
   "name": "basehub-marketing-website-template",
   "version": "0.1.0",
   "scripts": {
-    "dev": "basehub dev & next dev --turbopack",
+    "dev": "basehub dev & next dev --turbopack --port 3003",
     "build": "basehub && next build",
-    "start": "next start",
+    "start": "next start --port 3003",
     "lint": "next lint"
   },
   "dependencies": {
